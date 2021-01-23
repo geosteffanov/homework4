@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Домашно за CSS по Web Технологии">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="src.js"  async defer></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Форма</title>
+  </head>
+  <body id="document-body">
+    <form id="registration-form">
+      <input type="text" placeholder="Потребителско име" class="form-input" id="username-field">
+      <input type="password" placeholder="Парола" class="form-input" id="password-field">
+      <input type="text" placeholder="Телефон" class="form-input" id="phone-field">
+      <input type="text" placeholder="Имейл адрес" class="form-input" id="email-field">
+      <select class="form-input" id="role-field">
+        <option value="landlord" >Собственик</option>
+        <option value="renter">Наемател</option>
+      </select>
+      <input type="text" placeholder="Номер на апартамента" class="form-input" id="apartmentno-field">
+      <input type="submit" class="form-input" value="Регистрирай ме!" id="submit-btn">
+    </form>
+  </body>
+</html>
