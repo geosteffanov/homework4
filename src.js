@@ -101,9 +101,10 @@ function updateErrors(validation_data) {
       invalid_field = document.getElementById(field_id)
       invalid_field.classList.remove("form-input");
       invalid_field.classList.add("form-input-invalid");
-      errorNode = document.createElement("p")
+
+      errorNode = document.createElement("div")
       errorNode.id = field_id + "-error";
-      errorNode.classList.add("form-input")
+      // errorNode.classList.add("form-input-invalid")
       errorNode.classList.add("error-message")
       errorNode.innerText = errorMessages[field_id]
       invalid_field.parentNode.insertBefore(errorNode, invalid_field.nextSibling)

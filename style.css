@@ -42,10 +42,20 @@ input[type="submit"]:hover {
 }
 
 .error-message {
-  width: 90%;
+  align-self: baseline;
   color:#ffffff;
   background-color: #b0706d;
   border: none;
+  display: block;
+  margin: 0.7em;
+  padding: 0.4em;
+
+  width: 88%;
+
+  -ms-box-sizing:margin-box;
+  -moz-box-sizing:content-box;
+  box-sizing:content-box;
+  -webkit-box-sizing:margin-box;
 }
 
 .form-input-invalid {
